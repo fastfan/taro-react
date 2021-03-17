@@ -1,0 +1,131 @@
+.task-center{
+  &-top{
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px 0px rgba(221,221,208,0.30);
+    padding: 30px 40px;
+    margin: 24px 30px;
+    &-cont{
+      margin-bottom: 30px;
+      &:last-child{
+        margin-bottom: 0px;
+      }
+      &-block{
+        display: flex;
+        justify-content: space-between;
+      }
+      &-center,&-center2{
+        text-align: center;
+        &-icon{
+          width: 102px;
+          height: 102px;
+          margin: 28px 0 16px 0;
+        }
+        &-text{
+          font-size: 24px;
+          font-weight: 400;
+          color: #000;
+        }
+      }
+      &-center2{
+        width: 120px;
+      }
+    }
+    &-title{
+      font-size: 28px;
+      font-weight: 500;
+      color: #333;
+      &:before{
+        content: "";
+        width: 6px;
+        height: 44px;
+        background: linear-gradient(180deg,#e84949, #f1633e);
+        border-radius: 1px;
+        display: inline-block;
+        vertical-align: bottom;
+        margin: 0 12px 0 0;
+      }
+    }
+  }
+  &-mid{
+    .at-card {
+      border: none;
+      box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.08);
+      margin: 0 24rpx;
+      border-radius: 12rpx;
+      background-color: #FFF;
+    }
+    .at-card__header{
+      border-bottom:1PX solid #e7e7e7;
+    }
+    .at-card__header-extra{
+      font-weight: 400;
+      color: #666666;
+      &:after{
+        content: ">";
+        display: inline-block;
+        vertical-align: text-bottom;
+        color: #ccc;
+      }
+    }
+    .at-divider{
+      height: 50px;
+    }
+
+    &-title{
+      font-size: 32px;
+      font-weight: 500;
+      color: #333333;
+      margin-bottom: 6px;
+    }
+    &-contTop{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &-mintitle{
+        font-size: 28px;
+        font-weight: 400;
+        color: #666666;
+      }
+      &-extra{
+        background:rgba(255,81,103,.08);
+        border-radius: 4px;
+        padding: 6px 16px;
+        font-size: 24px;
+        font-weight: 400;
+        color: #e84949;
+      }
+    }
+    &-cont{
+      font-size: 28px;
+      font-weight: 400;
+      color: #666666;
+    }
+    &-contBot{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 16px;
+      align-items: center;
+      &-text{
+        font-size: 28px;
+        font-weight: 400;
+        color: #999999;
+        &:before{
+          content: "";
+          display: inline-block;
+          background: url("../../assets/address.png") center center no-repeat;
+          width: 30px;
+          height: 32px;
+          background-size: 30px 32px;
+          margin-right: 12px;
+          vertical-align: top;
+        }
+      }
+      &-time{
+        font-size: 28px;
+        font-weight: 400;
+        color: #999999;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.personal-center{
+  &-avater{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 220px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.08);
+    margin: 30px;
+    padding: 24px;
+    &-img{
+      width: 168px;
+      height: 168px;
+    }
+    &-text{
+      flex: 1;
+      margin-left: 30px;
+      .userinfo-nickname{
+        font-size: 36px;
+        font-weight: 500;
+        color: #333333;
+      }
+      .userinfo-department{
+        font-size: 28px;
+        font-weight: 400;
+        color: #666666;
+        margin-top: 12px;
+      }
+    }
+  }
+}
